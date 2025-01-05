@@ -25,7 +25,10 @@ import {
   // fiver
   // threejs,
 } from "../assets";
-import fiver from '../assets/company/fiver.png'
+import fiver from '../assets/company/fiver.png';
+import instaLogo from '../assets/tech/instalogo.jpg';
+import olxLogo from '../assets/tech/olx.jpg';
+import resturantLogo from '../assets/tech/resturant.jpg';
 
 export const navLinks = [
   {
@@ -171,58 +174,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Instagram Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A fully functional Instagram clone built using React.js and Firebase. The project replicates core features of Instagram, offering users a seamless experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -230,7 +191,49 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: instaLogo,
+    source_code_link: "https://github.com/SaadUrfSadi/real-instagram",
+  },
+  {
+    name: "OLX Clone",
+    description:
+      "A feature-rich OLX clone built with modern web technologies, offering a platform for users to buy, sell, and exchange products easily.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: olxLogo,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Resturant Web",
+    description:
+      "From traditional flavors to modern cuisine, we bring you a dining experience like no other. Your satisfaction is our priority, delivering taste and quality every time.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resturantLogo,
     source_code_link: "https://github.com/",
   },
 ];

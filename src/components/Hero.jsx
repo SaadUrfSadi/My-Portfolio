@@ -20,7 +20,7 @@ function Hero() {
           </p>
         </div>
        </div>
-       <ComputersCanvas/>
+       {/* <ComputersCanvas/> */}
     </section>
   )
 }

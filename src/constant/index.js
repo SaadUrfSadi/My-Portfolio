@@ -106,7 +106,7 @@ const technologies = [
 const experiences = [
   {
     title: "Web Developer",
-    company_name: "EBIZZ FZ LLC",
+    company_name: "MACWAY LTD",
     icon: shopify,
     iconBg: "#383E56",
     date: "May 2024 - Nov 2024",
